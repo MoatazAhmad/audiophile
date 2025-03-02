@@ -1,0 +1,35 @@
+@import "tailwindcss";
+body {
+  font-family: "Manrope", sans-serif;
+}
+:root {
+  --design-black: #000000;
+  --design-orange: #ff6600;
+  --light-gray: #f1f1f1;
+  --medium-gray: #666666;
+}
+@utility fill-design-orange {
+  fill: #d87d4a;
+}
+@utility bg-hero-desktop {
+  background-image: url("/src/assets/images/hero-image/desktop/image-hero.jpg");
+}
+@utility bg-hero-tablet {
+  background-image: url("/src/assets/images/hero-image/tablet/image-hero.jpg");
+}
+@utility bg-hero-mobile {
+  background-image: url("/src/assets/images/hero-image/mobile/image-hero.jpg");
+}
+
+
+
+@utility bg-image-speaker-zx7-desktop {
+  background-image: url("/src/assets/images/home-page-product-images/desktop/image-speaker-zx7.jpg");
+}
+@utility bg-image-speaker-zx7-tablet {
+  background-image: url("/src/assets/images/home-page-product-images/tablet/image-speaker-zx7.jpg");
+}
+@utility bg-image-speaker-zx7-mobile {
+  background-image: url("/src/assets/images/home-page-product-images/mobile/image-speaker-zx7.jpg");
+}
+
